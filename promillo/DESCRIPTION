@@ -1,0 +1,20 @@
+Package: promillo
+Title: Tells you how drunk you are
+Version: 1.0.0
+Authors@R: 
+    person(given = "Eleftheria",
+           family = "Papavasiliou",
+           role = c("aut", "cre"),
+           email = "E.Papavasileiou@campus.lmu.de")
+Description: Provides functions to compute and to visualize the amount of alcohol in the blood depending on various inputs in promille.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    checkmate,
+    lubridate,
+    ggplot2
